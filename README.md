@@ -1,4 +1,6 @@
 # SpaceshipAndStuff
+bleyfuesz yonathan
+
 
 How to get: GitColone or download archive
 Readme.pdf un subdirectory /doc
