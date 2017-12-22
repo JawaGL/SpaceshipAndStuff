@@ -3,7 +3,9 @@ bleyfuesz yonathan
 
 
 How to get: GitColone or download archive
-Readme.pdf un subdirectory /doc
+
+
+Readme.pdf in subdirectory /doc
 
 
 .vs is important, contains preconfigured include and linker option.
