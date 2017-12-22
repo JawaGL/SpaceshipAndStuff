@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{9CE17993-7CB9-48FE-B033-2DBD773AF619}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(SolutionDir)libWin</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glut32.lib;libGraph.lib;</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)libWin</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glut32.lib;engine.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="include\GraphicPrimitives.cpp" />
+    <ClCompile Include="src\engines\MyControlEngine.cpp" />
+    <ClCompile Include="src\engines\MyGameEngine.cpp" />
+    <ClCompile Include="src\engines\MyGraphicEngine.cpp" />
+    <ClCompile Include="src\Environment.cpp" />
+    <ClCompile Include="src\gameitems\Asteroid.cpp" />
+    <ClCompile Include="src\gameitems\AsteroidHitBox.cpp" />
+    <ClCompile Include="src\gameitems\AverageAsteroid.cpp" />
+    <ClCompile Include="src\gameitems\CombatSpacecraft.cpp" />
+    <ClCompile Include="src\gameitems\DeathStar.cpp" />
+    <ClCompile Include="src\gameitems\DoubleShoot.cpp" />
+    <ClCompile Include="src\gameitems\EllipticalAsteroid.cpp" />
+    <ClCompile Include="src\gameitems\Enterprise.cpp" />
+    <ClCompile Include="src\gameitems\HitBox.cpp" />
+    <ClCompile Include="src\gameitems\PenetratingShoot.cpp" />
+    <ClCompile Include="src\gameitems\RotatingShoot.cpp" />
+    <ClCompile Include="src\gameitems\Serenity.cpp" />
+    <ClCompile Include="src\gameitems\Shoot.cpp" />
+    <ClCompile Include="src\gameitems\ShootHitBox.cpp" />
+    <ClCompile Include="src\gameitems\Spacecraft.cpp" />
+    <ClCompile Include="src\gameitems\SpacecraftHitBox.cpp" />
+    <ClCompile Include="src\gameitems\SpawnEngine.cpp" />
+    <ClCompile Include="src\gameitems\WarpingAsteroid.cpp" />
+    <ClCompile Include="src\geometricalitems\GeometricalItem.cpp" />
+    <ClCompile Include="src\geometricalitems\Point2D.cpp" />
+    <ClCompile Include="src\gui\Board.cpp" />
+    <ClCompile Include="src\gui\GraphicalInterface.cpp" />
+    <ClCompile Include="src\gui\InterfaceComponent.cpp" />
+    <ClCompile Include="src\gui\ItemMenuBuy.cpp" />
+    <ClCompile Include="src\gui\MenuBuy.cpp" />
+    <ClCompile Include="src\gui\MenuScore.cpp" />
+    <ClCompile Include="src\gui\MenuSpacecraft.cpp" />
+    <ClCompile Include="src\gui\MenuWarning.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Papillon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="libwin\glut.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Asteroid.h" />
+    <ClInclude Include="include\AsteroidHitBox.h" />
+    <ClInclude Include="include\AverageAsteroid.h" />
+    <ClInclude Include="include\Board.h" />
+    <ClInclude Include="include\CombatSpacecraft.h" />
+    <ClInclude Include="include\ControlEngine.h" />
+    <ClInclude Include="include\DeathStar.h" />
+    <ClInclude Include="include\DoubleShoot.h" />
+    <ClInclude Include="include\EllipticalAsteroid.h" />
+    <ClInclude Include="include\Engine.h" />
+    <ClInclude Include="include\Enterprise.h" />
+    <ClInclude Include="include\Environment.h" />
+    <ClInclude Include="include\GameEngine.h" />
+    <ClInclude Include="include\GeometricalItem.h" />
+    <ClInclude Include="include\gl\glut.h" />
+    <ClInclude Include="include\GraphicalInterface.h" />
+    <ClInclude Include="include\GraphicEngine.h" />
+    <ClInclude Include="include\GraphicPrimitives.h" />
+    <ClInclude Include="include\HitBox.h" />
+    <ClInclude Include="include\InterfaceComponent.h" />
+    <ClInclude Include="include\ItemMenuBuy.h" />
+    <ClInclude Include="include\libGraphicInclude.h" />
+    <ClInclude Include="include\MenuBuy.h" />
+    <ClInclude Include="include\MenuScore.h" />
+    <ClInclude Include="include\MenuSpacecraft.h" />
+    <ClInclude Include="include\MenuWarning.h" />
+    <ClInclude Include="include\MyControlEngine.h" />
+    <ClInclude Include="include\MyGameEngine.h" />
+    <ClInclude Include="include\MyGraphicEngine.h" />
+    <ClInclude Include="include\Papillon.h" />
+    <ClInclude Include="include\PenetratingShoot.h" />
+    <ClInclude Include="include\Point2D.h" />
+    <ClInclude Include="include\RotatingShoot.h" />
+    <ClInclude Include="include\Serenity.h" />
+    <ClInclude Include="include\Shoot.h" />
+    <ClInclude Include="include\ShootHitBox.h" />
+    <ClInclude Include="include\Spacecraft.h" />
+    <ClInclude Include="include\SpacecraftHitBox.h" />
+    <ClInclude Include="include\SpawnEngine.h" />
+    <ClInclude Include="include\Stopwatch.h" />
+    <ClInclude Include="include\WarpingAsteroid.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

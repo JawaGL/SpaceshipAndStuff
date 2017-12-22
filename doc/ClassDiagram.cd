@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Asteroid" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAARABAAACEgAARQgOAAAAAABASACABBAAQEAEBBQA=</HashCode>
+      <FileName>include\Asteroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsteroidHitBox" Collapsed="true">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAUAAAFAAiCAAQAAQAAARAAAAAABAAgBAAAABA=</HashCode>
+      <FileName>include\AsteroidHitBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AverageAsteroid" Collapsed="true">
+    <Position X="3.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAACIAAAAAAIAAAAAAAAAAAAAAAAACgEgJQA=</HashCode>
+      <FileName>include\AverageAsteroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Board" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAIAAAEAEAAAIggjEAAgICAABgA=</HashCode>
+      <FileName>include\Board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatSpacecraft" Collapsed="true">
+    <Position X="21.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAGCABAAABAQkAQBhEAAAYAQKAAKAAgAAECHAQ=</HashCode>
+      <FileName>include\CombatSpacecraft.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlEngine" Collapsed="true">
+    <Position X="3.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQAABAAAAAAAAAAAAIAAAACEAAAAAAAIAAAAAAACA=</HashCode>
+      <FileName>include\ControlEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeathStar" Collapsed="true">
+    <Position X="24" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQAAAIQAAAAAAAAAAAAKAAAAAEAAAA=</HashCode>
+      <FileName>include\DeathStar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoubleShoot" Collapsed="true">
+    <Position X="10.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAYCAgAAAAAIAAAAAAAAAAAAAAAAAgAAADAA=</HashCode>
+      <FileName>include\DoubleShoot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EllipticalAsteroid" Collapsed="true">
+    <Position X="1.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQEAAAACAgAAAAAIIAAAAAAAABAAIAAAACAEABQA=</HashCode>
+      <FileName>include\EllipticalAsteroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAQAAAAAgAAAAEAAIAEAAAKAIBAAAAAAABAA=</HashCode>
+      <FileName>include\Engine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enterprise" Collapsed="true">
+    <Position X="19.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAIQAAAAAABEAAAAKAAAAAAAAAA=</HashCode>
+      <FileName>include\Enterprise.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Environment" Collapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQAAigABAAAgACAKAEAAAAQBgAlIAAIAHIAQIEIA=</HashCode>
+      <FileName>include\Environment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\GameEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeometricalItem" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAACAAAAAAAIAAAIAAAAAAAAAAIAAAAAABAA=</HashCode>
+      <FileName>include\GeometricalItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicalInterface" Collapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAACIAEAQAICMAAABACACEBAQAAAMwAABgE=</HashCode>
+      <FileName>include\GraphicalInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicEngine" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\GraphicEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicPrimitives" Collapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAgAAAAAQAAAAEAAAgAAAACCACAAAA=</HashCode>
+      <FileName>include\GraphicPrimitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HitBox" Collapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAABAAAAAAAAAACACAABAAgAAEAAEA=</HashCode>
+      <FileName>include\HitBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterfaceComponent" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABiBAUAAACggAAAAAIAAAQAABAAxgAEAAAAGAAAAAA=</HashCode>
+      <FileName>include\InterfaceComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemMenuBuy" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgSAAAAAAAAABABAKAATAEACAABAAAAAAACAEAQQA=</HashCode>
+      <FileName>include\ItemMenuBuy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuBuy" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAECAAAAAAIGAAAABAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\MenuBuy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuScore" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAwDASAIIAAAABIAACAHAACYQAAAAAAA=</HashCode>
+      <FileName>include\MenuScore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuSpacecraft" Collapsed="true">
+    <Position X="17.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAgAAAAAAAAAAIAAAAAAAAEAABAAAAEAAAABAA=</HashCode>
+      <FileName>include\MenuSpacecraft.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuWarning" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAIEAAAIAAAAAAAAAAAAAAAAAQBAAAAA=</HashCode>
+      <FileName>include\MenuWarning.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyControlEngine" Collapsed="true">
+    <Position X="3.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAABAAEAAAAAAAAAEAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>include\MyControlEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyGameEngine" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAQAAEQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\MyGameEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyGraphicEngine" Collapsed="true">
+    <Position X="8.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAAAAAAgAEAAAAAAAAAQAEACDAAQQAAAAAAAA=</HashCode>
+      <FileName>include\MyGraphicEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Papillon" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAgAAAAAAAAAQAQAIgEAAAAAAAAAIAAAAAyAEAAQA=</HashCode>
+      <FileName>include\Papillon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PenetratingShoot" Collapsed="true">
+    <Position X="12.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAQAICDAAAAAAAAAAAAAAAAAAACAAAAAAAAABAA=</HashCode>
+      <FileName>include\PenetratingShoot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point2D" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAACAAAAAAAIAAAAAAAAgAAAAAABgAAAGRAA=</HashCode>
+      <FileName>include\Point2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotatingShoot" Collapsed="true">
+    <Position X="15" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQABAAACAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAA=</HashCode>
+      <FileName>include\RotatingShoot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Serenity" Collapsed="true">
+    <Position X="21.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAEAAIQAAAAAAAAAAAAKAAAAAAAACA=</HashCode>
+      <FileName>include\Serenity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shoot" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAIQAhAACAEBAAAQgKAAAAAACAQAJABBAE4AAABAAA=</HashCode>
+      <FileName>include\Shoot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShootHitBox" Collapsed="true">
+    <Position X="5.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>giAIAAAAAAEQAACAAAAAAAAAAAAAAAAABAAgAAABAAA=</HashCode>
+      <FileName>include\ShootHitBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spacecraft" Collapsed="true">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgASAJwAAYCAgAgAIAIAQRIQCACAAIAACAAIAQgIFIA=</HashCode>
+      <FileName>include\Spacecraft.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpacecraftHitBox" Collapsed="true">
+    <Position X="0.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAAQAAAAAAAAAAAAAAAAAAAAAAAACAAgAAAAAAA=</HashCode>
+      <FileName>include\SpacecraftHitBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnEngine" Collapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEQAQAACkCgARgAIAAJACAAAAAJAADTAAgAAEoAIg=</HashCode>
+      <FileName>include\SpawnEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stopwatch" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAgAAAQAAAhAAAAAAACAAAAAAA=</HashCode>
+      <FileName>include\Stopwatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarpingAsteroid" Collapsed="true">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAQAQAAACEAAAAAAIAAAAEAIAAAAAAQgAgCgEgJQA=</HashCode>
+      <FileName>include\WarpingAsteroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
